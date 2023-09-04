@@ -1,0 +1,93 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+body {
+    color: white;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    padding: 2%;
+    font-size: 70%;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(35, 50, 190, .6);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content input{
+    margin: 1%;
+    padding: 1%;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+
+.buttonDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.item {
+    margin-top: 4%;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 2%;
+    border: 2px solid white;
+}
+
+button {
+    padding: 2%;
+    align-self:center;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 35px;
+    border: 2px solid rgba(35, 50, 190, .6);
+    background-color: rgba(35, 50, 190, .6);
+    color: white;
+}
+
+button:hover {
+    background-color: rgba(2, 8, 240, .6);
+}
+
+.add {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.checked {
+    text-decoration: line-through; /* Adiciona o efeito de riscado (strike-through) */
+    color: green; /* Cor verde */   
+}
+
+
+
+.checked input {
+    border: none;
+    color: green;
+}
+
+.deleteButtonDiv {
+    display: flex;
+    background-color: rgba(200, 20, 20, .8);
+    box-sizing: border-box;
+    font-size: 1.5em;
+    margin-top: 4%;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+}
